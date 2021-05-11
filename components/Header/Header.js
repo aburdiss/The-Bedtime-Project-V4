@@ -1,10 +1,10 @@
 import Link from "next/link";
 
-import styles from "./Header.module.css";
+import "./Header.module.css";
 
 export default function Header() {
   return (
-    <div className={styles.HeaderContainer}>
+    <div className={"HeaderContainer"}>
       <div>The Bedtime Project</div>
       <nav>
         <ul>
