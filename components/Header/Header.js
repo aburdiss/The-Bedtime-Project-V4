@@ -1,24 +1,31 @@
 import Link from "next/link";
+import Image from "next/image";
+import HeaderButton from "../HeaderButton/HeaderButton";
 
 import "./Header.module.css";
 
 export default function Header() {
   return (
     <div className={"HeaderContainer"}>
-      <div>The Bedtime Project</div>
+      <Link href="/">
+        <div className={"HeaderLogoContainer"}>
+          <Image src="/logo.png" width={50} height={50} />
+          <div className={"HeaderTitle"}>The Bedtime Project</div>
+        </div>
+      </Link>
       <nav>
-        <ul>
+        <ul className="HeaderNavigationList">
           <li>
-            <Link href="/">Home</Link>
+            <HeaderButton link={"/"}>Home</HeaderButton>
           </li>
           <li>
-            <Link href="/play">Play</Link>
+            <HeaderButton link="/play">Play</HeaderButton>
           </li>
           <li>
-            <Link href="/stories">Stories</Link>
+            <HeaderButton link="/stories">Stories</HeaderButton>
           </li>
           <li>
-            <Link href="/about">About</Link>
+            <HeaderButton link="/about">About</HeaderButton>
           </li>
         </ul>
       </nav>

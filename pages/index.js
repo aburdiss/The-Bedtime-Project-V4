@@ -14,7 +14,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Header />
       <main className={styles.main}>
         <h1>The Bedtime Project</h1>
         <div>Your pathway from Virtual to Reality</div>

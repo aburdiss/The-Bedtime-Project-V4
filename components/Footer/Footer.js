@@ -1,8 +1,11 @@
+import "./Footer.module.css";
+
 export default function Footer() {
   return (
-    <div>
-      <div>
-        Copyright © {new Date().getFullYear} Daniel Stigmon, All rights reserved
+    <div className="FooterContainer">
+      <div className="CopyrightContainer">
+        Copyright © {new Date().getFullYear()} Daniel Stigmon, All rights
+        reserved
       </div>
     </div>
   );
