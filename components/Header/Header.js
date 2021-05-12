@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import HeaderButton from "../HeaderButton/HeaderButton";
+import HeaderButton from "../Buttons/HeaderButton/HeaderButton";
 
 import "./Header.module.css";
 

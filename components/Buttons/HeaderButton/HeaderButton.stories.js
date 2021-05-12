@@ -3,7 +3,7 @@ import React from "react";
 import HeaderButton from "./HeaderButton";
 
 export default {
-  title: "Components/Header/Header Button",
+  title: "Components/Buttons/Header Button",
   component: HeaderButton,
   argTypes: {},
 };
