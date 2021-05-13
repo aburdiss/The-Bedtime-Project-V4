@@ -1,4 +1,4 @@
-import Layout from "../components/Layout/Layout";
+import Layout from "../src/components/Layout/Layout";
 
 export default function FourOhFour() {
   return (

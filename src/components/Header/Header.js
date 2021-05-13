@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 import HeaderButton from "../Buttons/HeaderButton/HeaderButton";
 
 import "./Header.module.css";
@@ -9,7 +8,7 @@ export default function Header() {
     <div className={"HeaderContainer"}>
       <Link href="/">
         <div className={"HeaderLogoContainer"}>
-          <Image src="/logo.png" width={50} height={50} />
+          {/* <Image src="/logo.png" width={50} height={50} /> */}
           <div className={"HeaderTitle"}>The Bedtime Project</div>
         </div>
       </Link>
